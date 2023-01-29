@@ -1,0 +1,5 @@
+create_bot.py
+FTS_data.xlsx
+*.xlsx
+*.csv
+*.zip
