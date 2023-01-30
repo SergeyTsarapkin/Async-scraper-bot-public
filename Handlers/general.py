@@ -20,6 +20,5 @@ async def random_english_word(message : types.message):
 
 def register_handlers_general(dp):
     dp.register_message_handler(command_start, commands=['start', 'help'])
-    #dp.register_message_handler(random_animal_picture, commands=['sobaka', 'koshka'])
     dp.register_message_handler(random_english_word, commands=['Английский'])
     #dp.register_message_handler(echo)
